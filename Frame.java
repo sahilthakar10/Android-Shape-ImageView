@@ -1,5 +1,3 @@
-package com.woovly.bucketlist.utils;
-
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -21,7 +19,7 @@ import androidx.annotation.Nullable;
 
 import com.woovly.bucketlist.R;
 
-public class WoovlyFrame extends FrameLayout {
+public class Frame extends FrameLayout {
 
     //Constants
     private static final String TAG = "WoovlyFrame";
