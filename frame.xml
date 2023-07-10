@@ -1,0 +1,23 @@
+<com.woovly.bucketlist.utils.WoovlyFrame
+    android:id="@+id/frame_iv"
+    android:layout_width="@dimen/image_large"
+    android:layout_height="@dimen/image_large"
+    android:layout_marginStart="@dimen/margin_medium"
+    android:layout_marginTop="@dimen/brand_top_margin"
+    app:porterduffxfermode="DST_IN"
+    app:mask="@drawable/woovly_shape" --> Add any shape image.
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:src="@tools:sample/avatars" >
+
+    <ImageView
+        android:id="@+id/ivBrandPic"
+        android:layout_width="@dimen/image_large"
+        android:layout_height="@dimen/image_large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars"
+        android:background="@color/white"/>
+
+</com.woovly.bucketlist.utils.WoovlyFrame>
