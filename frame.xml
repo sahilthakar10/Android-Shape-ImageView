@@ -1,4 +1,4 @@
-<com.woovly.bucketlist.utils.WoovlyFrame
+<com.sahil.android.Frame
     android:id="@+id/frame_iv"
     android:layout_width="@dimen/image_large"
     android:layout_height="@dimen/image_large"
